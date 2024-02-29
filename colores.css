@@ -1,0 +1,28 @@
+*{
+    background-color: lightgoldenrodyellow;
+}
+h1{
+    padding: 10px;
+    border:15px solid cornflowerblue;
+    margin:10px;
+}
+a:link{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: orange;
+    color: black;
+    text-decoration: underline;
+}
+a:visited{
+    background-color: cornflowerblue;
+    color: red;
+    text-decoration: none;
+}
+a:active{
+    background-color: orange;
+    color: black;
+    text-decoration: underline;
+}

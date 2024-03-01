@@ -7,7 +7,19 @@
     <title>Listas en HTML</title>
 </head>
 <body>
-    <h1>Listas no ordenadas</h1>
+
+    <a href="#noordenadas">Listas no ordenadas</a> |
+    <a href="#ordenadas">Listas ordenadas</a> |
+    <a href="#descripcion">Listas de descripción</a>
+
+    <h1>Uso de iframe en HTML</h1>
+    <iframe src="listas.html" name="brigitte"></iframe>
+    <div>
+        <a href="http://192.168.0.228:8090/dashboard" target="brigitte">Cargar sitio de Facebook</a>
+    </div>
+
+
+    <h1 id="noordenadas">Listas no ordenadas</h1>
     <ul style="list-style-type: square;">
         <li>Juan</li>
         <li>Karla
@@ -19,14 +31,14 @@
         <li>Pedro</li>
     </ul>
 
-    <h1>Listas ordenadas</h1>
+    <h1 id="ordenadas">Listas ordenadas</h1>
     <ol type="1">
         <li>Universidad Java</li>
         <li>Universidad phyton</li>
         <li>Universidad Excel</li>
     </ol>
 
-    <h1>Listas de descripción</h1>
+    <h1 id="descripcion">Listas de descripción</h1>
     <dl>
         <dt>Java:</dt>
         <dd>Creador:James Gosling</dd>
